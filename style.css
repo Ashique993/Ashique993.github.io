@@ -1,0 +1,331 @@
+html,
+body {
+  height: 100%;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: "Euclid Circular A", "Poppins";
+  background: #8367c5;
+  color: #fff;
+
+}
+
+p {
+  z-index: 500;
+}
+
+.banner,
+h1,
+.button {
+  transition: 0.6s;
+  z-index: 3;
+}
+
+#float {
+  position: absolute;
+  right: 0;
+  width: 30vw;
+  margin-right: 10px;
+  z-index: 0;
+  margin-top: 500px;
+}
+
+#h1 {
+  z-index: 50;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  z-index: 3;
+  height: 60%;
+  background: url("WallpaperDog-996039.jpg");
+  background-size: 180%;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.banner h1 {
+  font-size: 130px;
+  color: #f9f9f9;
+}
+
+
+.ftxt {
+  z-index: 500;
+}
+
+.container {
+  background: #002233;
+  padding: 60px 15%;
+  line-height: 40px;
+
+  box-shadow: 0 0 100px 100px #002233;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #00000000, #6eff3ebf, #00000000);
+}
+
+.sidename {
+  transform: rotate(-90deg);
+  /* position: absolute; */
+  font-family: "Euclid Circular A", "Poppins";
+  font-size: 0px;
+  display: none;
+  margin-left: -125px;
+  margin-top: 300px;
+  border: dashed 0.5px #ffffff55;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px #002233;
+  background-color: #00000025;
+  padding-inline: 20px;
+  backdrop-filter: blur(30px);
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.button {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  z-index: 3;
+
+
+}
+
+.button img {
+  width: 100%;
+  background-color: #002233;
+  margin-top: -50px;
+}
+
+hr.style-six {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+p {
+  text-align: justify;
+}
+
+.skill a {
+  color: #000;
+}
+
+.skill {
+  background-color: #004161;
+  height: 20px;
+  white-space: nowrap;
+  font-size: 13px;
+  width: fit-content;
+  margin-right: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#s1,
+#s2,
+#s3,
+#s4,
+#s5,
+#s6,
+#s7,
+#s8,
+#s9,
+#s0 {
+  margin-right: 5px;
+  cursor: pointer;
+  width: 10px;
+}
+
+#s1 {
+  color: #e34c26;
+}
+
+#s2 {
+  color: #264de4;
+
+}
+
+#s3 {
+  color: #f0db4f;
+
+}
+
+#s4 {
+  color: #4b8bbe;
+
+}
+
+#s5 {
+  color: #0078d7;
+
+}
+
+#s6 {
+  color: #68ffa2;
+}
+
+#s7 {
+  color: #b67148;
+
+}
+
+#s8 {
+  color: crimson;
+}
+
+#s9 {
+  color: #4fccf3;
+}
+
+#s0 {
+  color: #cf4772;
+}
+
+.endnote {
+  font-size: 10px;
+  color: #aaa;
+
+}
+
+.bgfoot {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  z-index: -10;
+  left: 0;
+  margin-top: -500px;
+}
+
+a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.social {
+  border: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#e1,
+#e2,
+#e3,
+#e4,
+#e5,
+#e6,
+#e7,
+#e8,
+#e9,
+#e10,
+#e11 {
+  font-size: 16px;
+  padding: 3px;
+  /* border: solid 0.5px #000; */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+  background-color: #fff;
+
+}
+
+#e1:hover,
+#e2:hover,
+#e3:hover,
+#e4:hover,
+#e5:hover,
+#e6:hover,
+#e7:hover,
+#e8:hover,
+#e9:hover,
+#e10:hover,
+#e11:hover {
+  transform: scale(1.25);
+}
+
+#e1 {
+  color: #221e6f;
+}
+
+#e9 {
+  color: #5865f2;
+}
+
+#e10 {
+  color: #e4e100;
+}
+
+#e11 {
+  color: #0088cc;
+}
+
+#e8 {
+  color: #00acee;
+}
+
+#e7 {
+  color: #3b5998;
+}
+
+#e6 {
+  color: #dd2a7b;
+}
+
+#e5 {
+  color: #f47f24;
+}
+
+#e4 {
+  color: #211f1f;
+}
+
+#e3 {
+  color: #000;
+
+}
+
+#e2 {
+  color: #0e76a8;
+}
+
+.bxn {
+  width: 210px;
+  height: 40px;
+  color: #fff;
+  background-color: #221e6f;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  font-size: 13px;
+  font-family: "Euclid Circular A", "Poppins";
+  margin-bottom: 30px;
+}
+
+#ext {
+  padding-left: 5px;
+
+}
