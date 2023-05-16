@@ -3,12 +3,10 @@ body {
   height: 100%;
 }
 
-
-
 body {
   margin: 0;
   font-family: "Euclid Circular A", "Poppins";
-  background: #8367c5;
+  background: #000000;
   color: #fff;
 
 }
@@ -21,13 +19,14 @@ p {
 h1,
 .button {
   transition: 0.6s;
-  z-index: 3;
+  margin-right: 125px;
+  z-index: 15;
 }
 
 #float {
   position: absolute;
   right: 0;
-  width: 30vw;
+  width: 50vw;
   margin-right: 10px;
   z-index: 0;
   margin-top: 500px;
@@ -52,7 +51,7 @@ h1,
 }
 
 .banner h1 {
-  font-size: 130px;
+  font-size: 85px;
   color: #f9f9f9;
 }
 
@@ -62,11 +61,11 @@ h1,
 }
 
 .container {
-  background: #002233;
+  background: #000000;
   padding: 60px 15%;
   line-height: 40px;
 
-  box-shadow: 0 0 100px 100px #002233;
+  box-shadow: 0 0 100px 100px #1f2629;
 }
 
 h2 {
@@ -92,7 +91,7 @@ hr.style-two {
   left: 0;
   top: 0;
   z-index: 1;
-  box-shadow: 0 0 40px #002233;
+  box-shadow: 0 0 40px #232628;
   background-color: #00000025;
   padding-inline: 20px;
   backdrop-filter: blur(30px);
@@ -103,10 +102,9 @@ hr.style-two {
 .button {
   width: 200px;
   height: 200px;
-  border-radius: 100px;
-  overflow: hidden;
-  z-index: 3;
-
+  border-radius: 200px;
+  overflow: auto;
+  z-index: 2;
 
 }
 
